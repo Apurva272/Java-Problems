@@ -1,3 +1,4 @@
+//Time complexity is O(2^n-1)
 public class TowerOfHanoi {
     public static void Tower(int n, String source, String destination, String helper) {
         if (n == 1) {
