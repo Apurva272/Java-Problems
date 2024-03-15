@@ -1,13 +1,12 @@
-import java.util.Scanner;
+package Strings;
 
 public class StringReverse {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string");
-        String s = sc.nextLine();
-        for (int i = s.length() - 1; i >= 0; i--) {
-            System.out.print(s.charAt(i));
+        String s = "abc";
+        int index = s.length() - 1;
+        while (index >= 0) {
+            System.out.print(s.charAt(index));
+            index--;
         }
     }
-
 }
