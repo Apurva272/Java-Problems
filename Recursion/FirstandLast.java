@@ -1,3 +1,4 @@
+//For a given character in string, find its first and last occurence 
 public class FirstandLast {
     public static int first = -1;
     public static int last = -1;
